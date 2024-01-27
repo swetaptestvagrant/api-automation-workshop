@@ -12,7 +12,7 @@ public class UserSignUp extends BaseAPITest{
     public void successfulRegistrationTest(){
         //Resource end point > /api/auth/signup
         String signUpEndpointResource = "/api/auth/signup";
-        String email = UUID.randomUUID() + "@hello.com";
+        String email = UUID.randomUUID().toString() + "@hello.com";
         String password = "8447_22@11s";
 
 
